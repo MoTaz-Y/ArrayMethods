@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Array Play Ground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    
+    <div id="header">
+        <img src="logo.png">
+        <div id="servicesDiv">
+            <h3 id="services" onclick="showServicesList()">Services  	&#8801;</h3>
+                <ul id="servicesMenue">
+                    <li onclick="hideServicesList()">&#x2718;</li>
+                    <li onclick="showMergeArray()">Merge Arrays</li>
+                    <li>Sort Array</li>
+                    <li>Filter Arrays</li>
+                    <li>Push Arrays</li>
+                    <li>Pop Arrays</li>
+                    <li>Shift Arrays</li>
+                    <li>Unshift Arrays</li>
+                </ul>
+        </div>
+        <h1>Array's Play Ground</h1>
+    </div>
+
+    
+
+    <div id="inputs">
+        <input type="text" name="firstArray" id="Array1" placeholder="Please Insert the first array">
+        <input type="text" name="secondArray" id="Array2" placeholder="Please Insert the Second array">
+        <button id="resultBtn" onclick="showRwsult()">Get the Merged Array </button>
+    </div>
+
+    <div id="resultArea">
+
+        <h3 id="result1"></h3>
+        <h3 id="result2"></h3>
+        <h3 id="result3"></h3>
+        <h3 id="result4"></h3>
+        <h3 id="result5"></h3>
+        <h3 id="result6"></h3>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
